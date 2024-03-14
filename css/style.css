@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
   color: white;
 }
 
@@ -13,16 +14,17 @@
 .debug {
   border: 2px dashed red;
 }
-/********************** MAIN ***********************/
 
-body {
-  background-color: black;
+.green-icon {
+  color: green;
 }
+/********************** MAIN ***********************/
 
 .top-line {
   position: absolute;
   right: 0;
   top: 0.5rem;
+  font-size: 0.8rem;
 }
 .top-line span {
   background-color: rgb(97, 97, 97);
@@ -31,15 +33,14 @@ body {
   border-radius: 5px;
 }
 
-/*******************************/
-
 .container {
   height: 100vh;
   background-color: black;
 }
+
 .card-box {
   flex-wrap: wrap;
-  height: 90%;
+  height: 93%;
   padding: 4rem 4rem 1rem 4rem;
 }
 
@@ -47,6 +48,7 @@ body {
   width: calc(100% / 7);
   height: calc(100% / 5);
   padding: 0rem 0.2rem 1rem 0.2rem;
+  position: relative;
 }
 
 .card img {
@@ -54,41 +56,61 @@ body {
   height: 100%;
 }
 
-.user-muted {
+.muted {
   background-color: rgba(0, 0, 0, 0.326);
   position: absolute;
+  bottom: 1.2rem;
+  padding: 0.2rem;
 }
+
 /********************* FOOTER **********************/
 .footer-container {
-  background-color: #222;
+  background-color: rgb(46, 46, 46);
   width: 100%;
-  height: 10%;
+  height: 7%;
   justify-content: space-between;
   align-items: center;
 }
+
 .foot-left {
   width: 20%;
 }
+
 .foot-center {
   width: 60%;
   justify-content: center;
 }
+
 .foot-right {
   width: 20%;
   text-align: right;
+  height: 100%;
+}
+
+.icon {
+  padding: 0 0.6rem;
+  text-align: center;
 }
 
 footer i {
-  font-size: 1.5rem;
-
-  margin: 0 auto;
+  font-size: 1.2rem;
 }
+
 footer p {
-  font-size: 1rem;
+  font-size: 0.6rem;
   padding-top: 0.4rem;
   text-align: center;
 }
-.icon {
-  padding: 0 0.5rem;
-  text-align: center;
+
+button {
+  font-size: 0.7rem;
+  border-style: none;
+  background-color: rgb(88, 88, 88);
+  height: 100%;
+  color: red;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+i:hover {
+  color: red;
 }
