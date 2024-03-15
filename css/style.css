@@ -114,3 +114,7 @@ button {
 i:hover {
   color: red;
 }
+.sign {
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+}
