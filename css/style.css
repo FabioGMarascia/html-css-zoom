@@ -11,21 +11,18 @@
   display: flex;
 }
 
-.debug {
-  border: 2px dashed red;
-}
-
 .green-icon {
   color: green;
 }
-/********************** MAIN ***********************/
 
+/********************** MAIN ***********************/
 .top-line {
   position: absolute;
   right: 0;
   top: 0.5rem;
   font-size: 0.8rem;
 }
+
 .top-line span {
   background-color: rgb(97, 97, 97);
   margin: 0.2rem;
@@ -38,7 +35,7 @@
   background-color: black;
 }
 
-.card-box {
+.card-container {
   flex-wrap: wrap;
   height: 93%;
   padding: 4rem 4rem 1rem 4rem;
@@ -111,9 +108,11 @@ button {
   font-weight: bold;
   padding: 0.5rem;
 }
+
 i:hover {
   color: red;
 }
+
 .sign {
   font-size: 1.5rem;
   padding: 0 0.5rem;
