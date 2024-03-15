@@ -7,6 +7,11 @@
   color: white;
 }
 
+.container {
+  height: 100vh;
+  background-color: black;
+}
+
 .flex {
   display: flex;
 }
@@ -15,7 +20,7 @@
   color: green;
 }
 
-/********************** MAIN ***********************/
+/********************** HEADER ***********************/
 .top-line {
   position: absolute;
   right: 0;
@@ -30,10 +35,7 @@
   border-radius: 5px;
 }
 
-.container {
-  height: 100vh;
-  background-color: black;
-}
+/********************** MAIN ***********************/
 
 .card-container {
   flex-wrap: wrap;
